@@ -1076,7 +1076,7 @@ h1.intro-header {
   line-height: 1.324;
   color: #151515;
   position: relative;
-  padding-bottom: 3.6rem;
+  padding-bottom: 1rem;
 }
 
 h1.intro-header::before {
@@ -2327,6 +2327,14 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 #testimonial-slider .testimonial-author img {
   width: 7.4rem;
   height: 7.4rem;
+  margin: 0 auto 1.2rem auto;
+  display: block;
+  border-radius: 50%;
+}
+
+.testimonial-author {
+  width: 19rem;
+  height: 19rem;
   margin: 0 auto 1.2rem auto;
   display: block;
   border-radius: 50%;
