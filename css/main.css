@@ -2165,9 +2165,12 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .pricing-table .plan-block.primary {
-  background: #39b54a;
+  background: #ffffff;
   color: rgba(255, 255, 255, 0.8);
 }
+
+
+
 
 .pricing-table .plan-block.primary .plan-block-title,
 .pricing-table .plan-block.primary .plan-block-price {
@@ -2200,6 +2203,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 .pricing-table .plan-bottom-part {
   margin-top: 3rem;
 }
+
+
 
 
 /* ------------------------------------------------------------------- 
@@ -2883,3 +2888,39 @@ footer ul a:visited {
 
 
 /*# sourceMappingURL=main.css.map */
+
+
+/* DIALOG - VENTANA MODAL - FICHA TECNICA */
+
+dialog {
+
+  background: #ebebeb;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  padding-right: 5rem;
+  padding-left: 3rem;
+
+}
+
+dialog h1 {
+  margin-bottom: 3.6rem;
+}
+
+dialog p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-align: justify;
+}
+
+dialog::backdrop {
+  background: rgba(58, 182, 75, 0.339);
+}
+
+.cerrar {
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.cerrar:hover {
+  cursor: pointer;
+}
