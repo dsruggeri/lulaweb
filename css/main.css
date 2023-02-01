@@ -34,6 +34,107 @@
 @import url("fonts.css");
 
 
+/* ==================================================================
+*  ICONOS CONTACTO SLAIBE
+====================================================================*/
+@font-face {
+  font-family: 'slaibe-icons';
+  src:  url('fonts/slaibe-icons.eot?oje0nj');
+  src:  url('fonts/slaibe-icons.eot?oje0nj#iefix') format('embedded-opentype'),
+    url('fonts/slaibe-icons.ttf?oje0nj') format('truetype'),
+    url('fonts/slaibe-icons.woff?oje0nj') format('woff'),
+    url('fonts/slaibe-icons.svg?oje0nj#slaibe-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+  
+}
+
+.slaibe-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'slaibe-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 2;
+  margin-right: 6px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slaibe-phone:before {
+  content: "\e900";
+}
+.slaibe-cellular-phone:before {
+  content: "\e900";
+}
+.slaibe-mobile:before {
+  content: "\e900";
+}
+.slaibe-briefcase:before {
+  content: "\e906";
+}
+.slaibe-instagram:before {
+  content: "\e901";
+}
+.slaibe-brand:before {
+  content: "\e901";
+}
+.slaibe-social:before {
+  content: "\e901";
+}
+.slaibe-envelop:before {
+  content: "\e902";
+}
+.slaibe-mail:before {
+  content: "\e902";
+}
+.slaibe-email:before {
+  content: "\e902";
+}
+.slaibe-contact:before {
+  content: "\e902";
+}
+.slaibe-letter:before {
+  content: "\e902";
+}
+.slaibe-mobile1:before {
+  content: "\e903";
+}
+.slaibe-cell-phone:before {
+  content: "\e903";
+}
+.slaibe-handheld:before {
+  content: "\e903";
+}
+.slaibe-phone1:before {
+  content: "\e904";
+}
+.slaibe-telephone:before {
+  content: "\e904";
+}
+.slaibe-contact1:before {
+  content: "\e904";
+}
+.slaibe-support:before {
+  content: "\e904";
+}
+.slaibe-call:before {
+  content: "\e904";
+}
+.slaibe-whatsapp:before {
+  content: "\e905";
+}
+
+
+
+*/
+
+
 /* ===================================================================
  *  02. base style overrides - (_document-setup)
  *
@@ -2608,8 +2709,8 @@ footer a:focus {
 footer h4 {
   color: rgb(0, 0, 0);
   font-size: 1.5rem;
-  padding-bottom: 2.4rem;
-  margin-bottom: 2.4rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0rem;
   position: relative;
 }
 
@@ -2640,7 +2741,7 @@ footer ul a:visited {
 
 .footer-logo {
   display: block;
-  margin: 0 0 5.4rem 0;
+  margin: 0 0 1rem 01rem;
   padding: 0;
   outline: 0;
   border: none;
@@ -2826,6 +2927,7 @@ footer ul a:visited {
   .footer-subscribe {
     clear: both;
   }
+
 }
 
 @media only screen and (max-width: 768px) {
