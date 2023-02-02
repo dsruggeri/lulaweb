@@ -2755,7 +2755,7 @@ footer ul a:visited {
 
 .footer-logo {
   display: block;
-  margin: 0 0 1rem 01rem;
+  margin: auto;
   padding: 0;
   outline: 0;
   border: none;
@@ -2926,7 +2926,7 @@ footer ul a:visited {
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * footer 
+ * footer 3
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1024px) {
@@ -2973,6 +2973,10 @@ footer ul a:visited {
   #go-top a,
   #go-top a:visited {
     border-radius: 5px 0 0 0;
+  }
+
+  footer h4 {
+    padding-bottom: 0.5rem;
   }
 }
 
