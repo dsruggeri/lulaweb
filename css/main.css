@@ -277,7 +277,7 @@ p.lead {
 
 @media only screen and (max-width: 768px) {
   p.lead {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }
 
@@ -1618,7 +1618,7 @@ h1.intro-header::before {
   */
   padding-top: 10rem;
   z-index: 500;
-  width: 50%;
+  width: 40%;
   text-align: right;
 }
 
@@ -1785,7 +1785,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * home section 
  * ------------------------------------------------------------------- */
 
-@media only screen and (max-width: 1300px) {
+ @media only screen and (max-width: 1300px) {
   .home-image-right {
     right: 5rem;
   }
@@ -1808,7 +1808,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     font-size: 4.8rem;
   }
   .home-image-right {
-    padding-top: 15rem;
+    padding-top: 18rem;
   }
   .home-image-right img {
     vertical-align: top;
@@ -1838,7 +1838,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   }
   .home-image-right {
     width: 40%;
-    padding-top: 70px;
+    padding-top: 120px;
   }
   .home-image-right img {
     vertical-align: top;
@@ -1859,10 +1859,10 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   .home-content-left {
     width: 94%;
     position: static;
-    padding: 8rem 2rem 200px;
+    padding: 15rem 6rem 366px;
     margin: 0 auto;
   }
-  .home-content-left h2 {
+  .home-content-left h1 {
     margin-bottom: 3.6rem;
   }
   .home-image-right {
@@ -1874,14 +1874,14 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
-    padding: 2;
-    margin-bottom: -0px;
+    padding: 0;
+    margin-bottom: -150px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   #home {
-    min-height: auto;
+    min-height: 885px;
   }
   .home-content-left h3 {
     font-size: 1.4rem;
@@ -1889,6 +1889,10 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   .home-content-left h1 {
     font-size: 3.6rem;
   }
+
+
+ 
+  
 }
 
 @media only screen and (max-width: 600px) {
@@ -1924,18 +1928,24 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   .home-content-left h1 {
     font-size: 3rem;
   }
+  #home {
+    min-height: 830px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
   .home-content-left {
-    padding: 12rem 0 300px;
+    padding: 12rem 0 12rem;
   }
   .home-content-left .button.stroke {
     margin: 0 0 1.2rem 0;
   }
   .home-image-right {
-    width: 260px;
-    margin-bottom: -0px;
+    width: 320px;
+    margin-bottom: -298px;
+  }
+  #home {
+    min-height: 710px;
   }
 }
 
@@ -1949,7 +1959,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 #about {
   min-height: 375px;
   background: #ffffff;
-  padding-top: 18rem;
+  padding-top: 10rem;
   overflow: hidden;
 }
 
@@ -2357,11 +2367,15 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     float: left;
   }
   .pricing-table .plan-top-part {
-    width: 41.66667%;
+    width: 100%;
     margin-top: 1.2rem;
   }
   .pricing-table .plan-bottom-part {
-    width: 58.33333%;
+    width: 100%;
+  }
+
+  .foto-vino {
+    max-height: 350px;
   }
 }
 
@@ -2917,7 +2931,9 @@ footer ul a:visited {
 
 @media only screen and (max-width: 1024px) {
   .footer-main>.row {
-    max-width: 800px;
+    max-width: 1024px;
+
+
   }
   .footer-info,
   .footer-contact,
@@ -2931,8 +2947,8 @@ footer ul a:visited {
 }
 
 @media only screen and (max-width: 768px) {
-  .footer-main>.row {
-    max-width: 600px;
+  .footer-main .row {
+    max-width: 700px;
   }
   .footer-logo {
     margin-left: auto;
@@ -2940,7 +2956,16 @@ footer ul a:visited {
   }
   .footer-info {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
+
+  .footer-contact {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   #go-top {
     bottom: 0;
     right: 0;
